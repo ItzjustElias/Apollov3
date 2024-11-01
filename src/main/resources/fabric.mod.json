@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "apollov3",
+	"version": "${version}",
+	"name": "Apollo",
+	"description": "This mod is still in Beta but has the purpose of removing memory leaks and increasing Minecraft Performance.",
+	"authors": [
+		"Elias"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/apollov3/apollo-logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.elias.apollo.ApolloV3"
+		]
+	},
+	"mixins": [
+		"apollov3.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

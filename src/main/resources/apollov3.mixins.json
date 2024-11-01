@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "org.elias.apollo.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MixinMathHelper"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
